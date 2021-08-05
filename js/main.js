@@ -35,12 +35,13 @@ $(document).ready(function () {
             0: {
                 items: 1
             },
-            560: {
+            544: {
                 items: 2
             }
         }
     })
 
+    
     // sticky navigation menu
 
     let nav_offset_top = $('.header_area').height() + 50;
@@ -59,5 +60,6 @@ $(document).ready(function () {
     }
 
     navbarFixed();
+
 
 });

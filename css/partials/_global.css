@@ -1,16 +1,15 @@
-
-
-/* Global Classes */ 
+/* Global Classes */
 
 .title-text{
-    font: normal bold 50px/ 72px var(--roboto);
+    font: normal bold 50px/72px var(--roboto);
 }
 
 .text-uppercase{
     text-transform: uppercase;
+
 }
 
-/* Buttons */ 
+/* buttons */
 
 .button{
     padding: .8rem 2.2rem;
@@ -20,7 +19,7 @@
     border-radius: 4px;
 }
 
-.button.primary-button{
+.button.primary-button {
     background: var(--gradient-color);
     background-clip: padding-box;
     color: whitesmoke;
@@ -36,12 +35,12 @@
 
 .button.primary-button::after, .button.secondary-button::after{
     position: absolute;
-    top: -2px; left: -2px;
-    bottom: -2px;  right: -2px;
+    top: -2px; left:-2px; bottom: -2px; right: -2px;
     background: var(--gradient-color);
-    content: ' ';
+    content: "";
     z-index: -1;
     border-radius: 4px;
+
 }
 
 .button.secondary-button{
@@ -58,7 +57,7 @@
 
 p.para{
     color: var(--text-color);
-    font: normal 500 16px/ 25px var(--roboto);
+    font: normal 500 16px/25px var(--roboto);
 }
 
 .font-roboto{
@@ -75,9 +74,8 @@ button:hover
 }
 
 .title-h1{
-    font: normal bold 39px/ 40px var(--roboto);
+    font: normal bold 39px/40px var(--roboto);
 }
-
 
 .navbar_fixed{
     position: fixed;
